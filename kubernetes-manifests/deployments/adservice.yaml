@@ -27,6 +27,7 @@ metadata: # kpt-merge: ad/adservice
   annotations:
     internal.kpt.dev/upstream-identifier: 'apps|Deployment|ad|adservice'
 spec:
+  replicas: 2
   selector:
     matchLabels:
       app: adservice
